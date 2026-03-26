@@ -1,0 +1,67 @@
+main{
+    display: flex;
+    height: 700px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.NAV{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    width: 25%;
+    background-color: #707172;
+    margin-right: 20px;
+}
+
+.HERO{
+    width: 75%;
+    height: inherit;
+}
+.Titre-principal, .Titre-secondaire, .Titre-tertiaire{
+    margin: 10px 0;
+}
+
+.Titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    background-color: #f07d25;
+}
+button{
+    border: none;
+    padding: 5px 25px;
+    color: #f07d25;
+    font-weight: 700px;
+    border-radius: 5px;
+}
+
+.SERVICES{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    background-color: #62a41c;
+    margin:20px 0 ;
+}
+
+.Boite-services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.boite-services-1, .boite-services-2, .boite-services-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    width: 100%;
+    background-color: #7cfd55;
+}

@@ -1,0 +1,21 @@
+footer{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.SECTION-INFO{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: #8859a8;
+}
+
+.FOOTER{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    height:90px ;
+    background-color: #3d3e3f;
+    margin-top: 20px;
+}
