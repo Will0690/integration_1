@@ -1,67 +1,36 @@
-# Exercice : Création de la version Responsive du site
+## Exercice : Création de la version Responsive du site
 
-# ADAPTATION RESPONSIVE (HTML & CSS)
+### Objectif
 
-1. Choix réalisés pour adapter le site
+Votre mission est de proposer une **version responsive** du site web que vous avez réalisé précédemment.  
+Le site doit pouvoir **s’adapter correctement aux différents types d’écrans** : ordinateur, tablette et smartphone.
 
-   L’adaptation du site a été réalisée selon une approche mobile-first améliorée, en combinant :
+### Consignes
 
-   - Flexbox pour organiser les éléments principaux (navigation, contenu, sections)
-   - Media queries pour ajuster le layout selon la taille d’écran
-   - Une séparation des styles par contexte :
-      - styles.css → version desktop (base)
-      - mobile.css → adaptation mobile
-      - tablette.css → adaptation tablette
+1. Analysez la version actuelle du site.
+2. Identifiez les éléments qui doivent être adaptés pour les petits écrans :
+   - navigation
+   - disposition des sections
+   - images
+   - textes
+3. Mettez en place une **version responsive** en utilisant les techniques CSS appropriées :
+   - **Media Queries**
+   - **Flexbox et/ou Grid**
+   - unités flexibles (`%`, `rem`, `vh`, `vw`, etc.).
 
-   Le layout repose principalement sur une structure flexible (display: flex) permettant de passer facilement d’un affichage en ligne (desktop) à un affichage en colonne (mobile/tablette).
+### Livrables attendus
 
-2. Breakpoints utilisés
+Vous devez fournir dans votre dépôt Git :
 
-   Trois formats principaux ont été définis :
-   - Mobile [@media (max-width: 768px)] :
-      - Navigation en pleine largeur
-      - Contenu empilé verticalement
-      - Services affichés en colonne
+- Le **code mis à jour** du site avec la version responsive.
+- Une **description dans ce README** expliquant :
+  - les choix réalisés pour adapter le site
+  - les breakpoints utilisés (mobile, tablette, desktop)
+  - les principales modifications apportées au layout.
 
-   - Tablette [@media (min-width: 768px) and (max-width: 1024px)] :
-      - Layout en colonne comme mobile
-      - Largeur du contenu centrée (≈ 80%)
-      - Meilleure lisibilité avec marges automatiques
+### Critères d’évaluation
 
-   - Desktop [Supérieur à 1024px (par défaut dans styles.css)] :
-      Layout horizontal :
-      - nav à gauche (20%)
-      - hero à droite (80%)
-
-3. Modifications principales du layout
-
-   ## Structure globale
-
-   Passage d’un layout fixe à un layout flexible avec Flexbox et utilisation de "flex-direction" pour gérer les changements :
-   - row (desktop)
-   - column (mobile et tablette)
-
-   ## Header et Footer
-
-   Largeur de 100% sur tous les écrans et hauteur de 5em pour un ajustement en fontion du contenu.
-
-   ## Navigation
-
-   - Desktop : barre latérale (20%)
-   - Mobile / Tablette : barre horizontale (100%)
-
-   ## Section Hero
-
-   - Adaptation automatique de la largeur
-   - Alignement vertical
-   - Bouton stylisé avec une marge intérieure (paddind) de 0.5em haut-bas et 1.5em gauche-droite
-
-   ## Liste des services
-
-   - Desktop : affichage horizontal
-   - Mobile / Tablette : affichage vertical (flex-direction: column)
-   - Chaque service concerve un aspect-ratio de 6/3 et prend toute la largeur sur petits écrans
-
-   ## Centrage et lisibilité
-
-   Réduction des largeurs sur tablette et ajout de marges automatiques (margin: auto) pour améliorer le confort visuel
+- Bonne adaptation du site aux différents écrans
+- Utilisation correcte de **Flexbox / Grid**
+- Organisation et lisibilité du code
+- Qualité de la documentation dans le README
