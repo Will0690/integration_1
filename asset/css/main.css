@@ -69,8 +69,13 @@ button{
  }
 
 @media screen and (max-width: 768px) 
-{ .Boite-services
-   {flex-direction: column; display: flex; align-items: center; justify-content: center; gap: 20px;
+{ 
+    .Boite-services{   
+        flex-direction: column;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        gap: 20px;
 }
     .boite-services-1, .boite-services-2, .boite-services-3{
         height: inherit;
