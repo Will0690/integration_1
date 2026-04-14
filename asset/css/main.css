@@ -54,14 +54,25 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 45px;
+    width: 100%;
+    height: 280px;
 }
 
 .boite-services-1, .boite-services-2, .boite-services-3{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 280px;
+    height: inherit;
     width: 100%;
     background-color: #7cfd55;
+ }
+
+@media screen and (max-width: 768px) 
+{ .Boite-services
+   {flex-direction: column; display: flex; align-items: center; justify-content: center; gap: 20px;
+}
+    .boite-services-1, .boite-services-2, .boite-services-3{
+        height: inherit;
+    }
 }
