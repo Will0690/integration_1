@@ -19,3 +19,21 @@ footer{
     background-color: #3d3e3f;
     margin-top: 20px;  
 }
+
+@media screen and (max-width: 768px) 
+{ 
+    .SECTION-INFO{   
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        gap: 20px;
+        height: 80px;
+}
+    .FOOTER{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: 80px;
+    }
+}
