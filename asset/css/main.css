@@ -73,7 +73,7 @@ button{
         flex-direction: column;
         display: flex;
         align-items: center; 
-        gap: 20px;
+        gap: 10px;
         height: 30%;
         width: 100%;
 }
@@ -97,16 +97,20 @@ button{
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 20px;
+        gap: 10px;
     }
     .HERO{
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
         display: flex;
         width: 100%;
+        gap: 10px;
     }
     .Titre{
         flex-direction: column;
         display: flex;
         width: 100%;
+        gap: 10px;
     }
     }
