@@ -80,4 +80,10 @@ button{
     .boite-services-1, .boite-services-2, .boite-services-3{
         height: inherit;
     }
+    .NAV{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
 }
